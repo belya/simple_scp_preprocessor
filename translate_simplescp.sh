@@ -5,7 +5,7 @@ PATH_TO_MODIFIERS="./sources/simplescp1_2_modifiers.js"
 PATH_TO_OPERATORS="./sources/simplescp1_2_operators.js"
 PATH_TO_PARSER="./sources/simplescp1_2_parser.js"
 PATH_TO_BUFFER="./buffer"
-PATH_TO_SSCP_FILES="../../ims.ostis.kb/"
+PATH_TO_SSCP_FILES=$1
 SSCP_EXTENSION="*.sisp"
 echo "Starting simplescp translator"
 for file in $(find $PATH_TO_SSCP_FILES -name $SSCP_EXTENSION) 
